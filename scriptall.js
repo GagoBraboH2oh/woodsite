@@ -4,7 +4,6 @@ function avisar(){
     if(menuwp.style.transform == 'rotate(360deg)')
     {
         menuwp.style.transform = 'rotate(180deg)'
-
         itemenu.style.width = '0vw'
         
     } else{
