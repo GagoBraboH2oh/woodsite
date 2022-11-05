@@ -11,7 +11,7 @@
     header{
         margin: auto;
         background-color: #F7BF4F;
-        width: 97vw;
+        width: 92vw;
         height: 50px;
         display: block;
         border-radius: 0px 0px 14px 14px;
@@ -54,6 +54,7 @@
     #itensmenu{
         display: flex;
         list-style: none;
+
         padding: 20px;
         margin-top: 10px;
         background-color: #F7BF4F;
