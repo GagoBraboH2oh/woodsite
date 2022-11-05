@@ -3,7 +3,7 @@ function avisar(){
     let itemenu = document.getElementById('itensmenu')
     if(menuwp.style.transform == 'rotate(360deg)')
     {
-        menuwp.style.transform = 'rotate(1080deg)'
+        menuwp.style.transform = 'rotate(90deg)'
 
         itemenu.style.width = '0vw'
         
