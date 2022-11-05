@@ -45,7 +45,8 @@
         height: 24px;
         margin-top: -37px;
         transform: rotate(360deg);
-        transition: all .5s
+        transition: all .5s;
+        transform: rotate(180deg);
         
     }
 
@@ -54,7 +55,6 @@
     #itensmenu{
         display: flex;
         list-style: none;
-
         padding: 20px;
         margin-top: 10px;
         background-color: #F7BF4F;
