@@ -123,6 +123,7 @@
     #contents-squere1-4:hover{
         transform: scale(1.1) ;
         transition: all .3s ;
+        border: solid 1px #F7BF4F;
     }
 
     #contents-squere2-4{
@@ -138,6 +139,7 @@
     #contents-squere2-4:hover{
         transform: scale(1.1) ;
         transition: all .3s ;
+        border: solid 1px #F7BF4F;
     }
 
     #contents-squere3-4{
@@ -152,6 +154,7 @@
     #contents-squere3-4:hover{
         transform: scale(1.1) ;
         transition: all .3s ;
+        border: solid 1px #F7BF4F;
     }
 
     #contents-squere4-4{
@@ -167,6 +170,7 @@
     #contents-squere4-4:hover{
         transform: scale(1.1) ;
         transition: all .3s ;
+        border: solid 1px #F7BF4F;
     }
 
     .information-contents-squere{
@@ -184,11 +188,34 @@
     #information-contents-squere1-4{
         text-align: center;
         margin: auto;
+
     }
 
+    #information-products{
+        width: 90vw;
+        height: 400px;
+        border: 1px solid black;
+        margin: auto;
+        text-align: center;
+        justify-content:center ;
+        
+    }
 
+    #product-informing{
+        width: 40vw;
+        height:400px;
+        background: url(../img/contents-squere/cama.png);
+        background-size: cover;
+        float: left;
 
+    }
 
+    #row1-products{
+        background: url(../img/contents-squere/cama.png);
+        
+        height: 90px;
+        background-size: cover
+    }
 
 
 
