@@ -1,0 +1,260 @@
+    *{
+        margin: 0;
+        padding: 0%;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    li{
+        list-style: none;
+    }
+    /*HEADER*/
+    header{
+        margin: auto;
+        background-color: #F7BF4F;
+        width: 100vw;
+        height: 50px;
+        display: block;
+        border-radius: 0px 0px 14px 14px;
+        position: fixed;
+        top: 0%;
+
+        
+    }
+
+    .material-icons{
+        float: right;
+        display: block;
+        margin-top: -37px;
+        padding-right: 10px;
+        
+    }
+
+    #cart{
+        float: right;
+        margin-left: 10px;
+    }
+
+    .logo>img{
+        display: block;
+        margin: auto;
+        height: 50px;
+        animation: logo-ani 60s infinite linear;
+        transition: all .3s;
+        
+    }
+
+    #menuimg{
+        margin-left: 10px;
+        float:left;
+        width: 34px;
+        height: 24px;
+        margin-top: -37px;
+        transform: rotate(360deg);
+        transition: all .5s;
+        transform: rotate(180deg);
+        cursor: pointer;
+        
+    }
+
+/*itensmenu*/
+
+    #itensmenu{
+        display: block;
+        list-style: none;
+        padding: 20px;
+        margin-top: 10px;
+        background-color: #F7BF4F;
+        height: 50vh;
+        width: 0vw;
+        padding: 0px;
+        list-style-type: none;
+        border-radius: 0px 14px 14px 0px;
+        transition: all .5s;
+        float: left;
+        text-align: center;
+        justify-content: space-around;
+        
+    }
+
+    #itensmenu>ul>li>a{
+        padding: 16px;
+        margin: 30px;
+        color: white;
+        text-decoration: none;
+        transition: all 1s;
+        float:right ;
+        text-align: center;
+        display: block;
+        flex-direction: column;
+        transform: translateZ();
+        
+        
+        
+    }
+
+/*contents-squere*/
+
+    #models{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .contents-squere{
+        max-width: 90vw;
+        width: 20vw;
+        border: 1px solid black;
+        margin: auto;
+        height: 180px;
+        display: inline-block;
+        
+        
+    }
+
+    #contents-squere1-4{
+        max-height:180px ;
+        overflow: hidden;
+        background: url(../img/contents-squere/guarda-roupa.png);
+        background-size: cover;
+        height: 180px;
+        width:20vw;
+    }
+
+    #contents-squere1-4:hover{
+        transform: scale(1.1) ;
+        transition: all .3s ;
+    }
+
+    #contents-squere2-4{
+        max-height:180px ;
+        overflow: hidden;
+        background: url(../img/contents-squere/cama.png);
+        background-size: cover;
+        background-position: bottom right;
+        height: 180px;
+        width:20vw;
+    }
+
+    #contents-squere2-4:hover{
+        transform: scale(1.1) ;
+        transition: all .3s ;
+    }
+
+    #contents-squere3-4{
+        max-height:180px ;
+        overflow: hidden;
+        background: url(../img/contents-squere/mesa.png);
+        background-size: cover;
+        height: 180px;
+        width:20vw;
+    }
+
+    #contents-squere3-4:hover{
+        transform: scale(1.1) ;
+        transition: all .3s ;
+    }
+
+    #contents-squere4-4{
+        max-height:180px ;
+        overflow: hidden;
+        background: url(../img/contents-squere/utencilios.png);
+        background-size: cover;
+        height: 180px;
+        width:20vw;  
+        background-position: center;
+    }
+
+    #contents-squere4-4:hover{
+        transform: scale(1.1) ;
+        transition: all .3s ;
+    }
+
+    .information-contents-squere{
+        width: 90vw;
+        height: 300px;
+        border: black 1px solid;
+        overflow: hidden;
+    }
+
+    .information-contents-squere>img{
+        height: 50vh;
+        float: left;
+    }
+
+    #information-contents-squere1-4{
+        text-align: center;
+        margin: auto;
+    }
+
+    #information-contents-squere1-4>img{
+        width: 50vw;
+    }
+
+    #see-furniture1-4-row1{
+        width: 80px;
+        height: 80px;
+        border: 1px solid black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*keyframes*/
+
+    @keyframes logo-ani{
+        0%{
+            transform: rotate(0deg);
+        }
+
+        25%{
+            transform: rotate(15deg);
+        }
+
+        50%{
+            transform: rotate(-15deg);
+        }
+
+        100%{
+            transform: rotate(0deg);
+        }
+    }

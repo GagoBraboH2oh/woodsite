@@ -8,9 +8,8 @@ function avisar(){
         
     } else{
         menuwp.style.transform = 'rotate(360deg)'
-        itemenu.style.width = '40vw'
-        
-        
+        itemenu.style.width = '20vw'
+
     }
    
    
