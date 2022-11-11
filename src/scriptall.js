@@ -14,3 +14,13 @@ function avisar(){
    
    
 }
+
+function conteinerproduct(){
+    let vizpro = document.getElementById('conteiner-product') 
+    if(vizpro.style.display == "block"){
+        vizpro.style.display = "none"
+    }else{
+        vizpro.style.display = "block"
+    }
+
+}
